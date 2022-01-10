@@ -1,0 +1,89 @@
+body {
+    font-family: 'Spartan', sans-serif;
+    background-color: #0A285F;
+}
+
+p {
+    color: #D5A100;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#musicbutton {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #D5A100;
+    background-color: #0A285F;
+}
+
+#navbar {
+    background-color: #FB1B1B;
+}
+
+#footer {
+    background-color: #FB1B1B;
+}
+
+#startbutton {
+    color: #0A285F;
+    background-color: #D5A100;
+    font-weight: 700;
+    font-size: 2rem;
+    transition: 0.5s;
+}
+
+#startbutton:hover {
+    color: #FB1B1B;
+}
+
+#practicebutton {
+    color: #0A285F;
+    background-color: #D5A100;
+    font-weight: 700;
+    font-size: 2rem;
+    transition: 0.5s;
+}
+
+#practicebutton:hover {
+    color: #FB1B1B;
+}
+
+#practicebody {
+    color: #D5A100;
+}
+
+#practicebody img {
+    height: 120px;
+    width: 120px;
+}
+
+.quizbtn {
+    color: #0A285F;
+    background-color: #D5A100;
+    transition: 0.5s;
+    font-weight: 700;
+}
+
+.quizbtn:hover {
+    color: #FB1B1B;
+    background-color: #D5A100;
+}
+
+.pokemon img {
+    height: 140px;
+    width: 140px;
+}
+
+#scoreboard {
+    color: #D5A100;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#score {
+    font-size: 3rem;
+}
+
+#unncs {
+    font-size: 1rem;
+}

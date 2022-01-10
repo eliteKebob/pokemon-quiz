@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="icon" href="poke.png" type="image/icon type">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokemon Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand justify-content-center" id="navbar">
+        <a class="navbar-brand" href="index.html">
+            <img src="pokemon.svg" class="d-inline-block align-top" alt="" loading="lazy">
+        </a>
+    </nav>
+    <audio id="myAudio" src="pokemontheme.mp3" type='audio/mp3'>
+        Your user agent does not support the HTML5 Audio element.
+    </audio>
+    <button class="btn" type="button" onclick="aud_play_pause()" id="musicbutton">Music On/Off</button>
+    <script>
+        function aud_play_pause() {
+            var myAudio = document.getElementById("myAudio");
+            if (myAudio.paused) {
+                myAudio.play();
+            } else {
+                myAudio.pause();
+            }
+        }
+    </script>
+    <br>
+    <div class="container-fluid text-center">
+        <p class="text-center">
+            There are 151 different Pokémons in this quiz. How many of them do you exactly know? Find out now.
+        </p>
+        <br>
+        <a href="quiz.html" class="text-decoration-none align-center">
+            <button type="button" class="btn btn-lg py-4" id="startbutton">Start the Quiz!</button>
+        </a>
+        <a href="practice.html" class="text-decoration-none align-center">
+            <button type="button" class="btn btn-lg py-4" id="practicebutton">Let me Practice!</button>
+        </a>
+    </div>
+    <div class="container-fluid text-center">
+        <nav class="navbar fixed-bottom navbar-expand" id="footer">
+            <a class="navbar-brand" href="index.html">
+                <img src="pokemon.svg" class="img-fluid w-25" alt="">
+            </a>
+            <a class="navbar-brand" href="index.html">
+                <img src="pokemon.svg" class="img-fluid w-25" alt="">
+            </a>
+            <a class="navbar-brand" href="index.html">
+                <img src="pokemon.svg" class="img-fluid w-25" alt="">
+            </a>
+            <a class="navbar-brand" href="index.html">
+                <img src="pokemon.svg" class="img-fluid w-25" alt="">
+            </a>
+            <a class="navbar-brand" href="index.html">
+                <img src="pokemon.svg" class="img-fluid w-25" alt="">
+            </a>
+        </nav>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
